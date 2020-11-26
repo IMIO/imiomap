@@ -9,7 +9,7 @@
       "width": "400px",
       "height": "auto",
       "className" : "claro",
-      "urbanRestApiUrl" : "https://montsaintguibert-carto.imio-app.be/reel1nughae7ipuChevaech3dai2fahM/urbanmap"
+      "urbanRestApiUrl" : "https://montsaintguibert-carto.imio-app.be/dae8IeThohz6eebei3aepei6deer9voh/urbanmap"
     }
   },
   {
@@ -20,13 +20,13 @@
       "position": "none",
       "activated": false,
       "className" : "claro",
-      "urbanRestApiUrl" : "https://montsaintguibert-carto.imio-app.be/reel1nughae7ipuChevaech3dai2fahM/urbanmap"
+      "urbanRestApiUrl" : "https://montsaintguibert-carto.imio-app.be/dae8IeThohz6eebei3aepei6deer9voh/urbanmap"
     }
   },
   {
     "className": "urbanmap/ZoomOnParcelAtStartup",
     "config": {
-      "urbanRestApiUrl" : "https://montsaintguibert-carto.imio-app.be/reel1nughae7ipuChevaech3dai2fahM/urbanmap"
+      "urbanRestApiUrl" : "https://montsaintguibert-carto.imio-app.be/dae8IeThohz6eebei3aepei6deer9voh/urbanmap"
     }
   },
   {
@@ -174,7 +174,7 @@
       "additionalServices": [
         {
           "title" : "Matrice Cadastrale (Urban)",
-          "url": "https://montsaintguibert-carto.imio-app.be/reel1nughae7ipuChevaech3dai2fahM/urbanmap/identify_parcel/{x}/{y}",
+          "url": "https://montsaintguibert-carto.imio-app.be/dae8IeThohz6eebei3aepei6deer9voh/urbanmap/identify_parcel/{x}/{y}",
           "type": "rest",
           "geometryFormat" : "geojson",
           "resultProperty" : "results",
@@ -187,7 +187,7 @@
         },
         {
           "title" : "Proriétaires (Urban)",
-          "url": "https://montsaintguibert-carto.imio-app.be/reel1nughae7ipuChevaech3dai2fahM/urbanmap/identify_owners/{x}/{y}",
+          "url": "https://montsaintguibert-carto.imio-app.be/dae8IeThohz6eebei3aepei6deer9voh/urbanmap/identify_owners/{x}/{y}",
           "type": "rest",
           "geometryFormat" : "geojson",
           "resultProperty" : "results",
