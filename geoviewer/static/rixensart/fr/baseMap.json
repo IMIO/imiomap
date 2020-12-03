@@ -81,10 +81,10 @@
     "activateTransparency": true,
     "services": [
       {
-        "serviceId": "b4",
+        "serviceId": "b5",
         "label": "IGN",
-        "type": "AGS_DYNAMIC",
-        "url": "https://geoservices.wallonie.be/arcgis/rest/services/IGN/FOND_IGN_NB/MapServer"
+        "type": "WMS",
+        "url": "https://wms.ngi.be/cartoweb/service?request=GetCapabilities&service=WMS"
       }
     ],
     "imagePath": "https://rixensart-carto.imio-app.be/static/FondIGN.png"
