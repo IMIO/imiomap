@@ -77,6 +77,19 @@
     "imagePath": "https://rixensart-carto.imio-app.be/static/FondPhoto_100.png"
   },
   {
+    "baseMapName": "IGN",
+    "activateTransparency": true,
+    "services": [
+      {
+        "serviceId": "b4",
+        "label": "IGN",
+        "type": "AGS_DYNAMIC",
+        "url": "https://geoservices.wallonie.be/arcgis/rest/services/IGN/FOND_IGN_NB/MapServer"
+      }
+    ],
+    "imagePath": "https://rixensart-carto.imio-app.be/static/FondIGN.png"
+  },
+  {
     "baseMapName": "Aucun",
     "activateTransparency": false,
     "services": [
