@@ -77,14 +77,27 @@
     "imagePath": "https://rixensart-carto.imio-app.be/static/FondPhoto_100.png"
   },
   {
-    "baseMapName": "IGN",
+    "baseMapName": "IGN NB",
     "activateTransparency": true,
     "services": [
       {
         "serviceId": "b4",
-        "label": "IGN",
+        "label": "IGN NB",
         "type": "AGS_DYNAMIC",
         "url": "https://geoservices.wallonie.be/arcgis/rest/services/IGN/FOND_IGN_NB/MapServer"
+      }
+    ],
+    "imagePath": "https://rixensart-carto.imio-app.be/static/FondIGN.png"
+  },
+  {
+    "baseMapName": "IGN",
+    "activateTransparency": true,
+    "services": [
+      {
+        "serviceId": "b5",
+        "label": "IGN",
+        "type": "WMS",
+        "url": "https://wms.ngi.be/cartoweb/service?request=GetCapabilities&service=WMS"
       }
     ],
     "imagePath": "https://rixensart-carto.imio-app.be/static/FondIGN.png"
