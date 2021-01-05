@@ -269,36 +269,6 @@
       }]
   },
   {
-    "code" : "ZonagePASH_Pro SPW",
-    "label" : "Zonage PASH Pro",
-    "mapServices" :[{
-        "serviceId": "ZonagePASH_Pro",
-        "label": "Zonage PASH Pro",
-        "type": "AGS_DYNAMIC",
-        "url" : "https://sig.spge.be/server/rest/services/WebPash/ZonagePASH_Pro/MapServer",
-        "visible": false,
-        "hasLegend": true,
-        "legendOpen": true,
-        "identifiable": true,
-        "toLoad": true
-      }]
-  },
-  {
-    "code" : "ZonagePASH_GP SPW",
-    "label" : "Zonage PASH Grand Public",
-    "mapServices" :[{
-        "serviceId": "ZonagePASH_GP",
-        "label": "Zonage PASH Grand Public",
-        "type": "AGS_DYNAMIC",
-        "url" : "https://sig.spge.be/server/rest/services/WebPash/ZonagePASH_GP/MapServer",
-        "visible": false,
-        "hasLegend": true,
-        "legendOpen": true,
-        "identifiable": true,
-        "toLoad": true
-      }]
-  },
-  {
     "code" : "PROTECT_CAPT SPW",
     "label" : "Protection des captages - Série",
     "mapServices" :[{
@@ -314,13 +284,13 @@
       }]
   },
   {
-    "code" : "STPOMP_GP SPW",
-    "label" : "PASH Stations de pompage et stations de démergement",
+    "code" : "BASSINS__BASSINS_PG SPW",
+    "label" : "BASSINS__BASSINS_PG / PASH",
     "mapServices" :[{
-        "serviceId": "STPOMP_GP",
-        "label": "PASH Stations de pompage et stations de démergement",
+        "serviceId": "BASSINS__BASSINS_PG",
+        "label": "BASSINS__BASSINS_PG",
         "type": "AGS_DYNAMIC",
-        "url" : "https://sig.spge.be/server/rest/services/WebPash/STPOMP_GP/MapServer",
+        "url" : "https://geoservices.wallonie.be/arcgis/rest/services/EAU/BASSINS__BASSINS_PG/MapServer",
         "visible": false,
         "hasLegend": true,
         "legendOpen": true,
@@ -329,43 +299,13 @@
       }]
   },
   {
-    "code" : "STATION_GP SPW",
-    "label" : "PASH Stations d'épuration",
+    "code" : "SPGE WebPASH",
+    "label" : "PASH Source SPGE",
     "mapServices" :[{
-        "serviceId": "STATION_GP",
-        "label": "PASH Stations d'épuration",
+        "serviceId": "SPGE WebPASH",
+        "label": "PASH Source SPGE",
         "type": "AGS_DYNAMIC",
-        "url" : "https://sig.spge.be/server/rest/services/WebPash/STATION_GP/MapServer",
-        "visible": false,
-        "hasLegend": true,
-        "legendOpen": true,
-        "identifiable": true,
-        "toLoad": true
-      }]
-  },
-  {
-    "code" : "RESTOT_GP SPW",
-    "label" : "Le réseau d'assainissement est repris au PASH",
-    "mapServices" :[{
-        "serviceId": "RESTOT_GP",
-        "label": "Le réseau d'assainissement est repris au PASH",
-        "type": "AGS_DYNAMIC",
-        "url" : "https://sig.spge.be/server/rest/services/WebPash/RESTOT_GP/MapServer",
-        "visible": false,
-        "hasLegend": true,
-        "legendOpen": true,
-        "identifiable": true,
-        "toLoad": true
-      }]
-  },
-  {
-    "code" : "BASSIN_ORAGE_GP SPW",
-    "label" : "PASH  Bassins d'orage",
-    "mapServices" :[{
-        "serviceId": "BASSIN_ORAGE_GP",
-        "label": "PASH  Bassins d'orage",
-        "type": "AGS_DYNAMIC",
-        "url" : "https://sig.spge.be/server/rest/services/WebPash/BASSIN_ORAGE_GP/MapServer",
+        "url" : "https://sig.spge.be/server/rest/services/WebPash/WebPASH/MapServer",
         "visible": false,
         "hasLegend": true,
         "legendOpen": true,
