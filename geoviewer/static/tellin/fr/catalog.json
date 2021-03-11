@@ -224,6 +224,111 @@
       }]
   },
   {
+    "code" : "PROTECT_CAPT SPW",
+    "label" : "Protection des captages - Série",
+    "mapServices" :[{
+        "serviceId": "PROTECT_CAPT",
+        "label": "Protection des captages - Série",
+        "type": "AGS_DYNAMIC",
+        "url" : "https://geoservices.wallonie.be/arcgis/rest/services/EAU/PROTECT_CAPT/MapServer",
+        "visible": false,
+        "hasLegend": true,
+        "legendOpen": true,
+        "identifiable": true,
+        "toLoad": true
+      }]
+  },
+  {
+    "code" : "CAPTAGES SPW",
+    "label" : "Protection des captages - Série",
+    "mapServices" :[{
+        "serviceId": "CAPTAGES",
+        "label": "Captages",
+        "type": "AGS_DYNAMIC",
+        "url" : "https://geoservices.wallonie.be/arcgis/rest/services/EAU/CAPTAGES/MapServer",
+        "visible": false,
+        "hasLegend": true,
+        "legendOpen": true,
+        "identifiable": true,
+        "toLoad": true
+      }]
+  },
+  {
+    "code" : "BDR SPW",
+    "label" : "Bords de route en fauchage tardif",
+    "mapServices" :[{
+        "serviceId": "BDR",
+        "label": "Bords de route en fauchage tardif",
+        "type": "AGS_DYNAMIC",
+        "url" : "https://geoservices.wallonie.be/arcgis/rest/services/FAUNE_FLORE/BDR/MapServer",
+        "visible": false,
+        "hasLegend": true,
+        "legendOpen": true,
+        "identifiable": true,
+        "toLoad": true
+      }]
+  },
+  {
+    "code" : "NATURA2000 SPW",
+    "label" : "Réseau Natura 2000 en vigueur",
+    "mapServices" :[{
+        "serviceId": "NATURA2000",
+        "label": "Réseau Natura 2000 en vigueur",
+        "type": "AGS_DYNAMIC",
+        "url" : "https://geoservices.wallonie.be/arcgis/rest/services/FAUNE_FLORE/NATURA2000/MapServer",
+        "visible": false,
+        "hasLegend": true,
+        "legendOpen": true,
+        "identifiable": true,
+        "toLoad": true
+      }]
+  },
+  {
+    "code" : "ATLAS_HYDRO SPW",
+    "label" : "Atlas des cours d'eau non navigable",
+    "mapServices" :[{
+        "serviceId": "ATLAS_HYDRO",
+        "label": "Atlas des cours d'eau non navigable",
+        "type": "AGS_DYNAMIC",
+        "url" : "https://geoservices.wallonie.be/arcgis/rest/services/EAU/ATLAS_HYDRO/MapServer",
+        "visible": false,
+        "hasLegend": true,
+        "legendOpen": true,
+        "identifiable": true,
+        "toLoad": true
+      }]
+  },
+  {
+    "code" : "SPGE WebPASH",
+    "label" : "PASH Source SPGE",
+    "mapServices" :[{
+        "serviceId": "SPGE WebPASH",
+        "label": "PASH Source SPGE",
+        "type": "AGS_DYNAMIC",
+        "url" : "https://sig.spge.be/server/rest/services/WebPash/WebPASH/MapServer",
+        "visible": false,
+        "hasLegend": true,
+        "legendOpen": true,
+        "identifiable": true,
+        "toLoad": true
+      }]
+  },
+  {
+    "code" : "scolyte_wms",
+    "label" : "Indice de végétation pour les épicéas scolytés",
+    "mapServices" :[{
+        "serviceId": "scolyte_wms",
+        "label": "Indice de végétation pour les épicéas scolytés",
+        "type": "WMS",
+        "url" : "https://gxgfservcarto.gxabt.ulg.ac.be/cgi-bin/scolyte_wms/WMSServer?request=GetCapabilities&service=WMS",
+        "visible": false,
+        "hasLegend": true,
+        "legendOpen": true,
+        "identifiable": true,
+        "toLoad": true
+      }]
+  },
+  {
     "code" : "ORTHO_1971 SPW",
     "label" : "Orthophotos 1971",
     "mapServices" :[{
@@ -239,6 +344,51 @@
       }]
   },
   {
+    "code" : "ORTHO_1994_2000 SPW",
+    "label" : "ORTHO_1994_2000",
+    "mapServices" :[{
+        "serviceId": "ORTHO_1994_2000",
+        "label": "ORTHO_1994_2000",
+        "type": "AGS_DYNAMIC",
+        "url" : "https://geoservices.wallonie.be/arcgis/rest/services/IMAGERIE/ORTHO_1994_2000/MapServer",
+        "visible": false,
+        "hasLegend": true,
+        "legendOpen": true,
+        "identifiable": true,
+        "toLoad": true
+      }]
+  },
+  {
+    "code" : "ORTHO_2001_2003 SPW",
+    "label" : "ORTHO_2001_2003",
+    "mapServices" :[{
+        "serviceId": "ORTHO_2001_2003",
+        "label": "ORTHO_2001_2003",
+        "type": "AGS_DYNAMIC",
+        "url" : "https://geoservices.wallonie.be/arcgis/rest/services/IMAGERIE/ORTHO_2001_2003/MapServer",
+        "visible": false,
+        "hasLegend": true,
+        "legendOpen": true,
+        "identifiable": true,
+        "toLoad": true
+      }]
+  },
+  {
+    "code" : "ORTHO_2006_2007 SPW",
+    "label" : "ORTHO_2006_2007",
+    "mapServices" :[{
+        "serviceId": "ORTHO_2006_2007",
+        "label": "ORTHO_2006_2007",
+        "type": "AGS_DYNAMIC",
+        "url" : "https://geoservices.wallonie.be/arcgis/rest/services/IMAGERIE/ORTHO_2006_2007/MapServer",
+        "visible": false,
+        "hasLegend": true,
+        "legendOpen": true,
+        "identifiable": true,
+        "toLoad": true
+      }]
+  },
+  {
     "code" : "ORTHO_2009_2010 SPW",
     "label" : "Orthophotos 2009-2010",
     "mapServices" :[{
@@ -246,6 +396,111 @@
         "label": "Orthophotos 2009-2010",
         "type": "AGS_DYNAMIC",
         "url" : "https://geoservices.wallonie.be/arcgis/rest/services/IMAGERIE/ORTHO_2009_2010/MapServer",
+        "visible": false,
+        "hasLegend": true,
+        "legendOpen": true,
+        "identifiable": true,
+        "toLoad": true
+      }]
+  },
+  {
+    "code" : "ORTHO_2012_2013 SPW",
+    "label" : "ORTHO_2012_2013",
+    "mapServices" :[{
+        "serviceId": "ORTHO_2012_2013",
+        "label": "ORTHO_2012_2013",
+        "type": "AGS_DYNAMIC",
+        "url" : "https://geoservices.wallonie.be/arcgis/rest/services/IMAGERIE/ORTHO_2012_2013/MapServer",
+        "visible": false,
+        "hasLegend": true,
+        "legendOpen": true,
+        "identifiable": true,
+        "toLoad": true
+      }]
+  },
+  {
+    "code" : "ORTHO_2015 SPW",
+    "label" : "ORTHO_2015",
+    "mapServices" :[{
+        "serviceId": "ORTHO_2015",
+        "label": "ORTHO_2015",
+        "type": "AGS_DYNAMIC",
+        "url" : "https://geoservices.wallonie.be/arcgis/rest/services/IMAGERIE/ORTHO_2015/MapServer",
+        "visible": false,
+        "hasLegend": true,
+        "legendOpen": true,
+        "identifiable": true,
+        "toLoad": true
+      }]
+  },
+  {
+    "code" : "ORTHO_2016 SPW",
+    "label" : "ORTHO_2016",
+    "mapServices" :[{
+        "serviceId": "ORTHO_2016",
+        "label": "ORTHO_2016",
+        "type": "AGS_DYNAMIC",
+        "url" : "https://geoservices.wallonie.be/arcgis/rest/services/IMAGERIE/ORTHO_2016/MapServer",
+        "visible": false,
+        "hasLegend": true,
+        "legendOpen": true,
+        "identifiable": true,
+        "toLoad": true
+      }]
+  },
+  {
+    "code" : "ORTHO_2017 SPW",
+    "label" : "ORTHO_2017",
+    "mapServices" :[{
+        "serviceId": "ORTHO_2017",
+        "label": "ORTHO_2017",
+        "type": "AGS_DYNAMIC",
+        "url" : "https://geoservices.wallonie.be/arcgis/rest/services/IMAGERIE/ORTHO_2017/MapServer",
+        "visible": false,
+        "hasLegend": true,
+        "legendOpen": true,
+        "identifiable": true,
+        "toLoad": true
+      }]
+  },
+  {
+    "code" : "ORTHO_2018 SPW",
+    "label" : "ORTHO_2018",
+    "mapServices" :[{
+        "serviceId": "ORTHO_2018",
+        "label": "ORTHO_2018",
+        "type": "AGS_DYNAMIC",
+        "url" : "https://geoservices.wallonie.be/arcgis/rest/services/IMAGERIE/ORTHO_2018/MapServer",
+        "visible": false,
+        "hasLegend": true,
+        "legendOpen": true,
+        "identifiable": true,
+        "toLoad": true
+      }]
+  },
+  {
+    "code" : "ORTHO_2019 SPW",
+    "label" : "ORTHO_2019",
+    "mapServices" :[{
+        "serviceId": "ORTHO_2019",
+        "label": "ORTHO_2019",
+        "type": "AGS_DYNAMIC",
+        "url" : "https://geoservices.wallonie.be/arcgis/rest/services/IMAGERIE/ORTHO_2019/MapServer",
+        "visible": false,
+        "hasLegend": true,
+        "legendOpen": true,
+        "identifiable": true,
+        "toLoad": true
+      }]
+  },
+  {
+    "code" : "ORTHO_2020 SPW",
+    "label" : "ORTHO_2020",
+    "mapServices" :[{
+        "serviceId": "ORTHO_2020",
+        "label": "ORTHO_2020",
+        "type": "AGS_DYNAMIC",
+        "url" : "https://geoservices.wallonie.be/arcgis/rest/services/IMAGERIE/ORTHO_2020/MapServer",
         "visible": false,
         "hasLegend": true,
         "legendOpen": true,
